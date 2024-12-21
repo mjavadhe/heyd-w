@@ -1,0 +1,25 @@
+2024-12-19 20:49:29.791 [info] (Client) Pylance async client (2024.11.3) started with python extension (2024.20.0)
+2024-12-19 20:49:32.559 [info] [Info  - 8:49:32 PM] (6798) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-19 20:49:32.566 [info] [Info  - 8:49:32 PM] (6798) Pylance language server 2024.11.3 (pyright version 1.1.386, commit 4180fa21) starting
+2024-12-19 20:49:32.568 [info] [Info  - 8:49:32 PM] (6798) Starting service instance "heyd"
+2024-12-19 20:49:32.862 [info] [Info  - 8:49:32 PM] (6798) Setting environmentName for service "heyd": "3.12.3 (venv venv)"
+2024-12-19 20:49:32.866 [info] [Info  - 8:49:32 PM] (6798) Setting pythonPath for service "heyd": "/home/mjavad/Desktop/heyd/venv/bin/python"
+2024-12-19 20:49:32.866 [info] [Info  - 8:49:32 PM] (6798) No include entries specified; assuming /home/mjavad/Desktop/heyd
+2024-12-19 20:49:32.869 [info] [Info  - 8:49:32 PM] (6798) Auto-excluding **/node_modules
+2024-12-19 20:49:32.870 [info] [Info  - 8:49:32 PM] (6798) Auto-excluding **/__pycache__
+2024-12-19 20:49:32.872 [info] [Info  - 8:49:32 PM] (6798) Auto-excluding **/.*
+2024-12-19 20:49:32.952 [info] [Info  - 8:49:32 PM] (6798) Assuming Python version 3.12.3.final.0
+2024-12-19 20:49:33.368 [info] [Info  - 8:49:33 PM] (6798) Auto-excluding /home/mjavad/Desktop/heyd/venv
+2024-12-19 20:49:33.439 [info] [Info  - 8:49:33 PM] (6798) Found 47 source files
+2024-12-19 20:49:37.864 [info] [Info  - 8:49:37 PM] (6798) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.11.3/dist
+2024-12-19 20:49:37.873 [info] [Info  - 8:49:37 PM] (6798) Background analysis(1) started
+2024-12-19 20:49:38.509 [info] [Info  - 8:49:38 PM] (6798) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.11.3/dist (index)
+2024-12-19 20:49:38.517 [info] [Info  - 8:49:38 PM] (6798) Indexing(2) started
+2024-12-19 20:49:41.043 [info] [Info  - 8:49:41 PM] (6798) [BG(1)] Long operation: SemanticTokens full at file:///home/mjavad/Desktop/heyd/heyd/apps/notifications/views.py (2825ms)
+2024-12-19 20:49:43.827 [info] [Info  - 8:49:43 PM] (6798) [IDX(2)] Long operation: scan packages file:///home/mjavad/Desktop/heyd (5015ms)
+2024-12-19 20:49:43.829 [info] [Info  - 8:49:43 PM] (6798) scanned(2) 32 files over 1 exec env
+2024-12-19 20:49:48.350 [info] [Info  - 8:49:48 PM] (6798) [IDX(2)] Long operation: indexing: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.11.3/dist/typeshed-fallback/stubs/networkx/networkx/__init__.pyi (2647ms)
+2024-12-19 20:49:49.057 [info] [Info  - 8:49:49 PM] (6798) [IDX(2)] Long operation: index execution environment file:///home/mjavad/Desktop/heyd (4240ms)
+2024-12-19 20:49:49.088 [info] [Info  - 8:49:49 PM] (6798) [IDX(2)] Long operation: index packages file:///home/mjavad/Desktop/heyd (4290ms)
+2024-12-19 20:49:49.089 [info] [Info  - 8:49:49 PM] (6798) indexed(2) 32 files over 1 exec env
+2024-12-19 20:49:49.168 [info] [Info  - 8:49:49 PM] (6798) Indexing finished(2).

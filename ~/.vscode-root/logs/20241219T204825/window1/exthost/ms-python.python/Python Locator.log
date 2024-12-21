@@ -1,0 +1,19 @@
+2024-12-19 20:49:16.814 [info] Starting Python Locator /root/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python-env-tools/bin/pet server
+2024-12-19 20:49:17.582 [info] Discovered env: /home/mjavad/Desktop/heyd/venv/bin/python
+2024-12-19 20:49:17.595 [info] Discovered env: /bin/python3
+2024-12-19 20:49:17.602 [info] Discovered env: /usr/bin/python3
+2024-12-19 20:49:17.612 [info] Locator Conda took 588.613591ms
+2024-12-19 20:49:17.613 [info] Locator Homebrew took 21.381021ms
+2024-12-19 20:49:17.613 [info] Locator LinuxGlobal took 983.503224ms
+2024-12-19 20:49:17.613 [info] Locator PipEnv took 2.436099ms
+2024-12-19 20:49:17.613 [info] Locator Poetry took 467.799µs
+2024-12-19 20:49:17.614 [info] Locator PyEnv took 14.040336ms
+2024-12-19 20:49:17.615 [info] Locator Venv took 47.79µs
+2024-12-19 20:49:17.620 [info] Locator VirtualEnv took 45.149µs
+2024-12-19 20:49:17.623 [info] Locator VirtualEnvWrapper took 44.273µs
+2024-12-19 20:49:17.626 [info] Locator GlobalVirtualEnvs took 140.249µs
+2024-12-19 20:49:17.628 [info] Locator Locators took 989.646464ms
+2024-12-19 20:49:17.630 [info] Locator Path took 1.385495835s
+2024-12-19 20:49:17.630 [info] Locator Workspaces took 161.212358ms
+2024-12-19 20:49:17.632 [info] Refresh completed in 1388ms
+2024-12-19 20:49:18.481 [info] Resolved Python Environment /home/mjavad/Desktop/heyd/venv/bin/python

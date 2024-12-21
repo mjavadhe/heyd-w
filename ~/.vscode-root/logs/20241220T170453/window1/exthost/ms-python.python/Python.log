@@ -1,0 +1,19 @@
+2024-12-20 17:05:11.392 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-20 17:05:11.392 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-20 17:05:11.392 [info] Experiment 'pythonTestAdapter' is active
+2024-12-20 17:05:11.392 [info] Native locator: Refresh started
+2024-12-20 17:05:11.392 [info] Native locator: Refresh started
+2024-12-20 17:05:11.392 [info] > pyenv which python
+2024-12-20 17:05:11.392 [info] cwd: .
+2024-12-20 17:05:12.440 [info] Native locator: Refresh finished in 4395 ms
+2024-12-20 17:05:12.478 [info] Python interpreter path: ./venv/bin/python
+2024-12-20 17:05:19.722 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-20 17:05:19.722 [info] shell: bash
+2024-12-20 17:05:19.937 [info] > /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-20 17:05:19.937 [info] shell: bash
+2024-12-20 17:05:20.066 [info] Setting environment variable VIRTUAL_ENV in collection to /home/mjavad/Desktop/heyd/venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-20 17:05:20.067 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-20 17:05:20.067 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-12-20 17:05:20.067 [info] Prepending environment variable PATH in collection with /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash:/home/mjavad/Desktop/heyd/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-20 17:05:20.070 [info] Send text to terminal: /usr/bin/python3 /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-12-20 17:05:22.227 [info] Starting Pylance language server.

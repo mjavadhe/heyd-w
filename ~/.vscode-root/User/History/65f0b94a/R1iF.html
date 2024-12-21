@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Redirecting to Payment Gateway...</h2>
+<p>Please wait while we process your payment for {{ payment.project.title }}.</p>
+<form id="payment-form" method="GET" action="{{ redirect_url }}">
+    <input type="hidden" name="transaction_id" value="{{ payment.transaction_id }}">
+    <button type="submit">Simulate Payment</button>
+</form>
+{% endblock %}
