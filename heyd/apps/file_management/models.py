@@ -1,6 +1,6 @@
 from django.db import models
 from apps.requests.models import ProjectRequest
-from apps.users.models import User
+from apps.dashboard.models import User
 
 class File(models.Model):
     project = models.ForeignKey(ProjectRequest, on_delete=models.CASCADE, related_name='files')

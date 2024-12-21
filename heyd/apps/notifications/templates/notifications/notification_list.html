@@ -1,0 +1,28 @@
+{% extends "shared/base.html" %}
+{% block content %}
+<h2>Your Notifications</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Message</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for notification in notifications %}
+        <tr>
+            <td>{{ notification.title }}</td>
+            <td>{{ notification.message }}</td>
+            <td>{{ "Read" if notification.is_read else "Unread" }}</td>
+            <td>
+                {% if not notification.is_read %}
+                <a href="{% url 'mark_as_read' notification.id %}" class="btn btn-primary">Mark as Read</a>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

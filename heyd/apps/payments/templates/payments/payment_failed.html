@@ -1,0 +1,6 @@
+{% extends "shared/base.html" %}
+{% block content %}
+<h2>Payment Failed</h2>
+<p>Unfortunately, your payment could not be processed. Please try again.</p>
+<a href="{% url 'initiate_payment' payment.project.id %}" class="btn btn-danger">Retry Payment</a>
+{% endblock %}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>داشبورد</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* فونت و بیس استایل */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* نوار ناوبری */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1a1a2e;
+            padding: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar .brand {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #00d9ff;
+        }
+
+        /* کانتینر اصلی */
+        .dashboard-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .dashboard-container h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #1a1a2e;
+        }
+
+        /* لینک‌ها */
+        .dashboard-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .dashboard-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background: #00d9ff;
+            color: #fff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .dashboard-links a i {
+            margin-right: 10px;
+        }
+
+        .dashboard-links a:hover {
+            background: #0077b6;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px);
+        }
+
+        /* پاورقی */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- نوار ناوبری -->
+    <nav class="navbar">
+        <a href="#" class="brand">داشبورد</a>
+        <ul>
+            <li><a href="/profile/">پروفایل</a></li>
+            <li><a href="/settings/">تنظیمات</a></li>
+            <li><a href="/logout/">خروج</a></li>
+        </ul>
+    </nav>
+
+    <!-- محتوای اصلی داشبورد -->
+    <div class="dashboard-container">
+        <h2>به داشبورد خودتان خوش آمدید</h2>
+        <div class="dashboard-links">
+            <a href="/requests/create/"><i class="fas fa-plus-circle"></i> درخواست پروژه</a>
+            <a href="/requests/list/"><i class="fas fa-list"></i> لیست پروژه‌ها</a>
+        </div>
+    </div>
+
+    <!-- پاورقی -->
+    <footer class="footer">
+        © 2024 Your Company. All rights reserved.
+    </footer>
+</body>
+</html>

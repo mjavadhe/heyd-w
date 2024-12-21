@@ -1,9 +1,0 @@
-2024-12-20 10:23:10.604 [error] [network] #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
-2024-12-20 10:23:13.621 [info] Deleted uninstalled extension from disk ms-python.debugpy /root/.vscode/extensions/ms-python.debugpy-2024.12.0-linux-x64
-2024-12-20 10:23:13.626 [info] Deleted uninstalled extension from disk ms-python.python /root/.vscode/extensions/ms-python.python-2024.20.0-linux-x64
-2024-12-20 10:23:13.631 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /root/.vscode/extensions/ms-python.vscode-pylance-2024.11.3
-2024-12-20 10:23:14.927 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2024-12-20 10:23:19.260 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2024-12-20 10:23:19.729 [error] [network] #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2024-12-20 10:23:22.861 [error] [network] #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
-2024-12-20 10:23:33.973 [error] [network] #6: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED

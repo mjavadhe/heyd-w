@@ -14,9 +14,9 @@ def send_email_notification(user_email, subject, message):
     )
 
 def create_notification(user, title, message, send_email=False):
-    # Create internal notification
+    # ایجاد اعلان داخلی
     Notification.objects.create(user=user, title=title, message=message)
 
-    # Optionally send email notification
+    # ارسال ایمیل در صورت نیاز
     if send_email:
         send_email_notification.delay(user.email, title, message)

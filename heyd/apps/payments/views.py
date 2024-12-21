@@ -1,21 +1,8 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
-from django.conf import settings
 from .models import Payment
 from apps.requests.models import ProjectRequest
 import uuid
-from apps.notifications.tasks import create_notification
-
-@login_required
-def payment_callback(request):
-    # ... به‌روزرسانی وضعیت پرداخت ...
-    create_notification(
-        user=payment.customer,
-        title="Payment Successful",
-        message=f"Your payment for project '{payment.project.title}' was successful.",
-        send_email=True
-    )
-
 
 @login_required
 def initiate_payment(request, project_id):
@@ -24,11 +11,10 @@ def initiate_payment(request, project_id):
         return redirect('list_requests')  # Only approved projects can be paid for
 
     # Create a payment instance
-    payment = Payment.objects.create(
+    payment, created = Payment.objects.get_or_create(
         project=project,
         customer=request.user,
-        amount=project.price,
-        transaction_id=str(uuid.uuid4())  # Generate unique transaction ID
+        defaults={'amount': project.price, 'transaction_id': str(uuid.uuid4())}
     )
 
     # Redirect to the payment gateway (simulate for now)

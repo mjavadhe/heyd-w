@@ -1,0 +1,140 @@
+
+{% block content %}
+<!-- CSS برای زیباسازی صفحه -->
+<style>
+    /* تنظیمات عمومی برای بدنه صفحه */
+    body {
+        font-family: 'Vazir', sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 0;
+        direction: rtl; /* نمایش متن از راست به چپ */
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: #333;
+        margin-top: 50px;
+    }
+
+    /* جدول */
+    .table {
+        width: 90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .table th,
+    .table td {
+        padding: 12px 20px;
+        text-align: center;
+        font-size: 1.1rem;
+        color: #555;
+    }
+
+    .table th {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .table tr:hover {
+        background-color: #e2e2e2;
+    }
+
+    /* لینک مشاهده جزئیات */
+    .btn-link {
+        color: #4CAF50;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .btn-link:hover {
+        color: #45a049;
+    }
+
+    /* دکمه‌ها */
+    .btn-primary {
+        background-color: #4CAF50;
+        border-color: #4CAF50;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 50px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #45a049;
+        transform: scale(1.05);
+    }
+
+    /* تنظیمات طراحی واکنش‌گرا */
+    @media (max-width: 767px) {
+        h2 {
+            font-size: 1.6rem;
+        }
+
+        .table {
+            width: 100%;
+        }
+
+        .table th,
+        .table td {
+            font-size: 1rem;
+        }
+    }
+</style>
+
+<!-- JavaScript برای افکت‌های صفحه -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // افکت‌های جاوااسکریپت در صورت نیاز
+        console.log('صفحه درخواست‌های شما بارگذاری شد');
+    });
+</script>
+
+<!-- محتویات صفحه درخواست‌های شما -->
+<div class="container">
+    <h2>درخواست‌های شما</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>کد پروژه</th>
+                <th>عنوان</th>
+                <th>وضعیت</th>
+                <th>(تومان) قیمت</th>
+                <th>زمان تحویل (روز)</th>
+                <th>عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for request in requests %}
+            <tr>
+                <td>{{ request.project_id }}</td>
+                <td>{{ request.title }}</td>
+                <td>{{ request.status }}</td>
+                <td>{{ request.price }}</td>
+                <td>{{ request.delivery_time }}</td>
+                <td>
+                    <a href="{% url 'request_detail' request.id %}" class="btn-link">مشاهده</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="text-center">
+        <a href="{% url 'home' %}" class="btn btn-primary">بازگشت به صفحه اصلی</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,6 +1,7 @@
 from django.db import models
 from apps.requests.models import ProjectRequest
-from apps.users.models import User
+from apps.dashboard.models import User
+import uuid
 
 class Payment(models.Model):
     STATUS_CHOICES = [
@@ -8,6 +9,7 @@ class Payment(models.Model):
         ('successful', 'Successful'),
         ('failed', 'Failed'),
     ]
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     project = models.OneToOneField(ProjectRequest, on_delete=models.CASCADE, related_name='payment')
     customer = models.ForeignKey(User, on_delete=models.CASCADE, related_name='payments')
     amount = models.DecimalField(max_digits=10, decimal_places=2)

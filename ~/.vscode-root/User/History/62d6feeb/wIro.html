@@ -1,7 +1,0 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>Payment Successful!</h2>
-<p>Thank you for your payment of {{ payment.amount }} for project "{{ payment.project.title }}".</p>
-<p>Transaction ID: {{ payment.transaction_id }}</p>
-<a href="{% url 'list_requests' %}">Back to Your Requests</a>
-{% endblock %}
