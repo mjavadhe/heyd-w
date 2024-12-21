@@ -1,0 +1,45 @@
+2024-12-21 19:21:47.441 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-21 19:21:47.441 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-21 19:21:47.441 [info] Experiment 'pythonTestAdapter' is active
+2024-12-21 19:21:47.441 [info] Native locator: Refresh started
+2024-12-21 19:21:47.441 [error] Python discovery not supported in untrusted workspace
+2024-12-21 19:21:47.441 [info] Native locator: Refresh finished in 51 ms
+2024-12-21 19:21:49.423 [info] > pyenv which python
+2024-12-21 19:21:49.424 [info] cwd: .
+2024-12-21 19:21:49.508 [info] > python -c "import sys;print(sys.executable)"
+2024-12-21 19:21:49.513 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-12-21 19:21:49.781 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-21 19:21:49.781 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-21 19:21:49.781 [info] Experiment 'pythonTestAdapter' is active
+2024-12-21 19:21:49.781 [info] Native locator: Refresh started
+2024-12-21 19:21:54.604 [info] Native locator: Refresh started
+2024-12-21 19:21:55.172 [info] > pyenv which python
+2024-12-21 19:21:55.177 [info] cwd: .
+2024-12-21 19:21:58.147 [info] Native locator: Refresh finished in 8435 ms
+2024-12-21 19:21:58.343 [info] Python interpreter path: /usr/bin/python3
+2024-12-21 19:21:59.881 [info] Starting Pylance language server.
+2024-12-21 19:21:59.882 [info] Starting Pylance language server.
+2024-12-21 19:25:00.490 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w
+2024-12-21 19:25:00.490 [info] Python interpreter path: ./venv/bin/python
+2024-12-21 19:25:00.591 [info] > /bin/python3 ~/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-21 19:25:00.591 [info] shell: bash
+2024-12-21 19:25:00.887 [info] Prepending environment variable PATH in collection with /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash:/home/mjavad/Desktop/heyd-w/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-21 19:25:00.894 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-12-21 19:25:00.906 [info] Send text to terminal: /bin/python3 /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-12-21 19:48:01.186 [info] Discover tests for workspace name: undefined - uri: /home/mjavad/Desktop/heyd-w/~/.vscode-root/User/settings.json
+2024-12-21 20:05:38.424 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py

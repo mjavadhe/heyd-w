@@ -1,0 +1,783 @@
+2024-12-21 19:21:12.080 [warning] Creation of workbench contribution 'workbench.contrib.updateExperimentalSettingsDefaults' took 41ms.
+2024-12-21 19:21:13.559 [info] Started local extension host with pid 3441.
+2024-12-21 19:21:19.784 [info] Settings Sync: Updating due to initialize
+2024-12-21 19:21:19.786 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:19.790 [info] Settings Sync: Authentication providers updated []
+2024-12-21 19:21:21.854 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:21.857 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-21 19:21:21.858 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:21.859 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-21 19:21:21.862 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:21.863 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:21.864 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:21.865 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:21.866 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-21 19:21:21.871 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:21.876 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:21.877 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-21 19:21:21.882 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:21.883 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:40.312 [info] Started local extension host with pid 3525.
+2024-12-21 19:21:44.334 [info] Settings Sync: Updating due to initialize
+2024-12-21 19:21:44.338 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:44.343 [info] Settings Sync: Authentication providers updated []
+2024-12-21 19:21:45.519 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:45.520 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-21 19:21:45.522 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:45.523 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-21 19:21:45.524 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:45.525 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:45.526 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:45.527 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:45.596 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-21 19:21:45.599 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:45.600 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:45.604 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-21 19:21:45.605 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:45.606 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:57.590 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-21 19:21:57.593 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-21 19:21:59.779 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:21:59.784 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:21:59.805 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:00.000 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:00.008 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:00.021 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:00.025 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:00.030 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:00.036 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:00.109 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:00.574 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:01.904 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:01.912 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:22:38.488 [info] [perf] Render performance baseline is 81ms
+2024-12-21 19:24:56.275 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:24:56.283 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:00.665 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:00.672 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:00.673 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:00.680 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:00.681 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:00.686 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:01.018 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:01.629 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:25:01.644 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:47:05.873 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:47:09.124 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:47:12.023 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:47:12.224 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:47:16.712 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:47:17.817 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:47:18.606 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:47:18.615 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:47:47.335 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:47:48.514 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:47:51.215 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:47:51.266 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:47:55.548 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 19:47:57.591 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 19:47:57.815 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:47:58.838 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:47:59.557 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:47:59.571 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:49:05.654 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:49:06.824 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:49:09.546 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:49:09.554 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:49:14.253 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:49:15.289 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 19:49:15.308 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:49:17.461 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:49:17.462 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:49:26.914 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:49:27.825 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:49:28.598 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:49:28.602 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:49:34.252 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:49:35.231 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:49:36.830 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:49:36.839 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:50:10.800 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:50:11.507 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:50:11.672 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:50:11.678 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:50:36.496 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:50:38.086 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:50:40.059 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:50:40.068 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:50:40.078 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:40.603 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:40.656 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:40.878 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:40.879 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:42.808 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:42.813 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:47.555 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:50:48.413 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:50:48.688 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:48.692 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:50:48.698 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:50:48.710 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:48.713 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:50:48.714 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 19:51:00.117 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:51:00.310 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:51:00.318 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:51:01.285 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:51:31.604 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:51:32.384 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:51:33.704 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:51:33.708 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:51:38.737 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:51:39.770 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:51:40.640 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:51:40.641 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:51:44.510 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 19:51:44.899 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:51:45.946 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:51:47.959 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:51:47.978 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:51:52.950 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:51:54.337 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:51:54.964 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:51:54.984 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:52:05.723 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:52:06.720 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:52:07.905 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 19:52:08.472 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:52:08.495 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:52:20.476 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:52:21.752 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:52:25.097 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:52:25.113 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:52:46.674 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:52:49.028 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:52:50.139 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:52:50.146 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:52:54.633 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:52:57.047 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:52:59.885 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:53:00.115 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:54:06.957 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:54:07.837 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:54:08.126 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:54:08.130 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:54:31.115 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:54:31.117 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:54:31.124 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:54:32.154 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:54:42.306 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:54:42.583 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:54:42.592 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:54:43.876 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:56:32.119 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:56:33.342 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:56:34.598 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 19:56:36.444 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:56:36.453 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:56:40.799 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:56:42.131 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:56:43.432 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:56:43.442 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:57:35.240 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:57:36.153 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:57:36.611 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:57:36.612 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:57:47.652 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:57:47.673 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:57:47.688 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:57:48.776 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:58:49.978 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 19:58:50.166 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:58:51.127 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:58:53.778 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:58:53.789 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 19:58:59.438 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 19:59:00.442 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 19:59:01.506 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 19:59:01.510 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:03:05.443 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:03:06.651 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:03:08.964 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:03:08.965 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:03:14.367 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:03:15.581 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:03:15.864 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:03:15.867 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:03:17.190 [warning] UNRESPONSIVE extension host: 'vscode.git' took 17.697156414887214% of 39.98ms, saved PROFILE here: 'file:///tmp/exthost-4fef0e.cpuprofile'
+2024-12-21 20:05:27.110 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:05:27.152 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:05:27.153 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:05:28.239 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:05:31.298 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 20:05:31.299 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 20:05:33.899 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:05:34.575 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:05:35.895 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:05:37.568 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:05:37.569 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:06:06.870 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 20:06:06.913 [error] [Extension Host] Notification handler 'window/logMessage' failed with message: Channel has been closed
+2024-12-21 20:08:01.751 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:08:02.534 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:08:03.995 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:08:03.997 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:08:09.136 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:08:10.299 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:08:11.913 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:08:11.927 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:08:17.102 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:08:18.764 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:08:19.927 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:08:19.938 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:08:25.373 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:08:26.447 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:08:26.755 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:08:26.762 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:08:37.598 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:08:38.491 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:08:38.942 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:08:38.951 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:08:44.622 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:08:46.024 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:08:46.143 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:08:46.153 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:08:47.502 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:09:04.209 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:09:11.296 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:09:13.159 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:09:13.595 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:09:13.599 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:09:24.042 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:09:24.287 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:09:24.293 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:09:25.582 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:09:30.653 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:09:31.991 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:09:32.263 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:09:32.275 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:09:36.439 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:09:36.846 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:09:36.847 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:09:37.850 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:09:42.596 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:09:44.069 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:09:46.112 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:09:46.121 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:09:50.051 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:09:51.536 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:09:51.999 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:09:52.022 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:09:57.159 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:09:57.346 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:09:58.704 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:09:59.560 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:09:59.565 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:10:13.460 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:10:14.941 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:10:16.926 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:10:16.936 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:10:22.186 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:10:22.391 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:10:22.392 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:10:23.292 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:10:28.060 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:10:29.234 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:10:29.605 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:10:29.613 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:10:34.674 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:10:35.588 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:10:35.944 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:10:35.953 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:10:41.114 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:10:42.171 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:10:42.594 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:10:42.596 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:10:47.846 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:10:48.509 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:10:49.729 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:10:51.798 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:10:51.800 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:10:57.775 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:10:57.948 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:10:59.394 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:10:59.458 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:10:59.462 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:11:04.395 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:11:05.343 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:11:05.632 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:11:06.009 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:11:06.014 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:11:11.424 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:11:13.202 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:11:14.955 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:11:14.964 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:11:22.175 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:11:22.457 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:11:22.460 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:11:23.462 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:11:28.518 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:11:28.981 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:11:29.411 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:11:29.919 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:11:29.920 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:11:34.930 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:11:35.939 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:11:36.383 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:11:36.389 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:17:42.908 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:17:43.489 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:17:43.756 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:17:43.760 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:19:11.167 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:19:12.395 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:19:12.929 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:19:14.098 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:19:14.103 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:19:18.639 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:19:19.669 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:19:20.629 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:19:20.644 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:19:47.301 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:19:48.758 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:19:49.950 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:19:49.962 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:20:05.065 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:20:06.484 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:20:06.554 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:20:06.571 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:20:39.954 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:20:41.453 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:20:41.823 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:20:41.832 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:21:09.161 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:21:10.409 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:21:11.659 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:21:13.554 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:21:13.563 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:21:23.247 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:21:29.890 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:21:31.049 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:21:31.061 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:21:31.068 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:21:47.187 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:21:48.532 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:21:49.319 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:21:49.328 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:21:53.219 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:21:53.342 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:21:53.346 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:21:54.361 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:21:58.927 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:22:00.100 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:22:01.016 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:22:01.019 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:22:05.896 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:22:06.633 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:22:07.866 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:22:08.320 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:22:08.325 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:22:19.310 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:22:19.480 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:22:20.453 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:22:20.562 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:22:20.566 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:22:25.288 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:22:25.844 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:22:25.857 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:22:26.782 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:22:30.995 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:22:31.103 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:22:31.106 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:22:33.145 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:22:54.477 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:22:54.577 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:22:54.579 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:22:55.505 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:23:01.233 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:23:02.288 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:23:02.425 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:23:02.455 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:23:07.711 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:23:08.399 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:23:09.653 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:23:09.802 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:23:09.809 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:23:15.706 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:23:24.351 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:23:25.391 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:23:25.915 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:23:25.919 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:23:32.882 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:23:34.192 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:23:34.768 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:23:34.777 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:23:47.699 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:23:48.825 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:23:49.622 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:23:49.631 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:24:07.351 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:24:08.121 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:24:09.537 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:24:09.729 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:24:09.730 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:24:15.831 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:24:17.048 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:24:17.895 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:24:20.663 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:24:20.679 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:24:26.564 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:24:26.960 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:24:26.973 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:24:27.753 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:24:39.527 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:24:40.598 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:24:40.908 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:24:40.916 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:24:54.726 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:24:56.120 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:24:56.653 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:24:56.660 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:25:01.461 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:25:02.492 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:25:03.145 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:25:03.150 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:25:19.767 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:25:21.753 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:25:22.527 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:25:22.546 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:25:27.856 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:25:29.799 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:25:31.575 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:25:31.580 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:25:36.631 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:25:36.802 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:25:36.812 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:25:37.817 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:25:42.678 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:25:42.853 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:25:43.610 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:25:44.545 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:25:44.551 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:25:51.726 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:25:52.020 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:25:52.023 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:25:53.257 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:26:07.204 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:26:19.524 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:26:20.678 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:26:21.700 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:26:21.704 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:26:26.379 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:26:27.597 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:26:27.926 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:26:27.930 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:27:07.080 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:27:08.315 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:27:09.173 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:27:09.188 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:27:38.442 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:27:38.611 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:27:38.612 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:27:39.373 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:27:44.448 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:27:46.291 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:27:46.823 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:27:46.830 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:27:51.228 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:27:51.680 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:27:52.648 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:27:53.411 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:27:53.413 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:28:07.043 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:28:07.481 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:28:07.485 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:28:08.325 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:28:13.387 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:28:14.477 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:28:15.039 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:28:15.052 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:28:20.255 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:28:21.410 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:28:21.792 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:28:21.802 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:28:22.229 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:28:40.664 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:28:41.085 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:28:42.316 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:28:42.526 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:28:42.543 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:28:48.566 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:28:50.020 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:28:51.098 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:28:51.099 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:28:56.265 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:28:57.354 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:28:57.685 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:28:57.837 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:28:57.838 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:29:09.175 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:29:10.196 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:29:10.473 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:29:11.191 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:29:11.196 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:29:16.439 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:29:17.614 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:29:18.528 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:29:18.529 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:29:35.882 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:29:36.755 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:29:37.934 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:29:37.955 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:29:57.193 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:29:57.214 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:29:58.515 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:29:59.590 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:29:59.594 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:30:28.626 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:30:28.971 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:30:28.973 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:30:29.623 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:30:34.642 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:30:35.842 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:30:36.201 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:30:36.212 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:30:42.196 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:30:44.216 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:30:45.452 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:30:46.373 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:30:46.374 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:31:00.704 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:31:01.724 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:31:02.166 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:31:02.172 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:31:07.034 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:31:08.303 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:31:08.317 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:31:08.338 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:31:20.960 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:31:22.240 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:31:23.030 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:31:23.031 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:31:28.689 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:31:30.300 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:31:31.256 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:31:31.259 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:31:52.400 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:31:53.767 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:31:59.782 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:32:07.216 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:32:08.251 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:32:08.695 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:32:08.697 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:32:18.818 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:32:19.783 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:32:19.921 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:32:19.926 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:32:54.599 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:32:54.813 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:32:54.834 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:32:55.682 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:34:48.017 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:34:49.111 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:34:49.436 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:34:49.438 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:36:30.303 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:36:31.468 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:36:31.763 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:36:31.767 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:37:16.069 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:37:16.204 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:37:16.211 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:37:17.245 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:38:58.047 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:38:58.320 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:38:58.324 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:38:59.245 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:39:03.914 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:39:04.016 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:39:04.017 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:39:04.906 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:39:26.912 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:39:28.091 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:39:28.354 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:39:28.366 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:40:12.707 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:40:13.742 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:40:13.805 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:40:13.816 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:40:29.876 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:40:30.847 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:40:30.939 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:40:30.944 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:41:43.577 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:41:44.619 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:41:44.773 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:41:44.777 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:44:10.611 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:44:11.685 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:44:11.904 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:44:11.905 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:44:56.209 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:44:57.333 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:44:57.602 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:44:57.612 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:45:02.354 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:45:02.433 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:45:02.435 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:45:03.261 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:46:27.131 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:46:28.260 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:46:28.452 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:46:28.465 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:46:50.206 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:46:50.350 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:46:50.351 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:46:51.242 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:47:58.241 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:47:59.347 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:47:59.675 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:47:59.676 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:48:43.962 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:48:45.076 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:48:45.243 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:48:45.249 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:49:18.585 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:49:19.736 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:49:20.139 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:49:20.142 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:49:30.699 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:49:32.023 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:49:32.383 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:49:32.395 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:49:37.453 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:49:39.155 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:49:40.325 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:49:40.337 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:49:45.161 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:49:46.566 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:49:48.322 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:49:48.325 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:51:23.335 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:51:25.516 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:51:26.332 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:51:32.392 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:51:40.768 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:51:42.126 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:51:42.439 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:51:43.444 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:51:43.451 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:51:50.107 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:51:51.209 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:51:52.357 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:51:52.371 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:51:59.421 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:52:00.720 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:52:00.763 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:52:00.775 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:52:12.095 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:52:13.485 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:52:13.937 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:52:13.939 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:52:20.655 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:52:22.080 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:52:24.417 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:52:24.422 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:54:37.962 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:54:39.132 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:54:42.264 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:54:42.283 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:54:47.584 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:54:49.100 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:54:49.677 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:54:49.689 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:54:54.595 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:54:55.713 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:54:58.318 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:54:58.326 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:54:58.571 [error] Error: ENOENT: no such file or directory, stat '/home/mjavad/Desktop/heyd-w/home/mjavad/Downloads/msg1258007-373.jpg': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mjavad/Desktop/heyd-w/home/mjavad/Downloads/msg1258007-373.jpg'
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9057)
+	at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7007)
+2024-12-21 20:54:59.245 [error] Error: The editor could not be opened because the file was not found.
+    at Nbe.gc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2101:32266)
+    at async Nbe.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2101:31424)
+    at async j8e.U (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:663:100849)
+    at async j8e.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:663:99400)
+    at async j8e.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:663:98482)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:775:23622
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:522:2230
+2024-12-21 20:55:02.981 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:55:04.737 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:55:05.797 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:55:05.833 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:55:12.696 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:55:14.362 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:55:16.147 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:55:16.159 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:55:21.171 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:55:22.553 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:55:23.078 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:55:23.088 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:56:38.912 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:56:40.743 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:56:41.375 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:56:41.378 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:56:46.680 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:56:47.690 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:56:48.807 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:56:49.777 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:56:49.786 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:56:53.577 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:56:54.804 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:56:56.576 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:56:57.154 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:56:57.158 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:57:00.948 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 20:57:02.358 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 20:57:03.503 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 20:57:03.792 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 20:57:03.805 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-21 20:57:04.555 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-21 21:02:44.104 [info] Extension host (LocalProcess pid: 3525) is unresponsive.
+2024-12-21 21:02:45.380 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-21 21:02:46.188 [info] Extension host (LocalProcess pid: 3525) is responsive.
+2024-12-21 21:02:46.189 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session

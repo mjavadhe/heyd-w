@@ -1,0 +1,25 @@
+2024-12-21 19:21:08.780 [info] update#setState idle
+2024-12-21 19:21:38.504 [info] Extension host with pid 3441 exited with code: 0, signal: unknown.
+2024-12-21 19:21:38.598 [error] [UtilityProcessWorker]: terminated unexpectedly with code 82, signal: unknown
+2024-12-21 19:21:38.789 [info] update#setState checking for updates
+2024-12-21 19:21:47.525 [error] [network] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/f1a4fb101478ce6ec82fe9627c43efbf9e98c813 - error undefined net::ERR_TIMED_OUT
+2024-12-21 19:21:47.540 [error] update#isLatestVersion(): failed to check for updates
+2024-12-21 19:21:47.551 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117531)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-12-21 19:22:17.657 [error] [network] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/f1a4fb101478ce6ec82fe9627c43efbf9e98c813 - error undefined net::ERR_TIMED_OUT
+2024-12-21 19:22:17.661 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117531)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-12-21 19:22:17.662 [info] update#setState idle
+2024-12-21 19:22:37.677 [error] [network] #3: https://update.code.visualstudio.com/api/update/linux-x64/stable/f1a4fb101478ce6ec82fe9627c43efbf9e98c813 - error undefined net::ERR_TIMED_OUT
+2024-12-21 19:22:37.678 [error] update#isLatestVersion(): failed to check for updates
+2024-12-21 19:22:37.679 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117531)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-12-21 20:21:38.792 [info] update#setState checking for updates
+2024-12-21 20:22:10.080 [error] [network] #4: https://update.code.visualstudio.com/api/update/linux-x64/stable/f1a4fb101478ce6ec82fe9627c43efbf9e98c813 - error undefined net::ERR_TIMED_OUT
+2024-12-21 20:22:10.081 [error] Error: net::ERR_TIMED_OUT
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117531)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-12-21 20:22:10.082 [info] update#setState idle
