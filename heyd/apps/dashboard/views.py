@@ -2,8 +2,83 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
-from .forms import CustomUserCreationForm, CustomAuthenticationForm, AdminUserCreationForm
+from .forms import CustomUserCreationForm, CustomAuthenticationForm, AdminUserCreationForm, ProfileUpdateForm
 from .models import User
+from django.contrib.auth.forms import PasswordChangeForm
+
+from django.contrib.auth.hashers import make_password
+from django.core.mail import send_mail
+from django.contrib import messages
+import random
+import string
+
+
+def reset_password_view(request):
+    """
+    ویو برای بازیابی رمز عبور فراموش شده
+    """
+    if request.method == 'POST':
+        email = request.POST.get('email')
+
+        # بررسی وجود ایمیل در پایگاه داده
+        try:
+            user = User.objects.get(email=email)
+
+            # تولید رمز عبور تصادفی
+            new_password = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+
+            # بروزرسانی رمز عبور در پایگاه داده
+            user.password = make_password(new_password)
+            user.save()
+
+            # ارسال ایمیل به کاربر
+            send_mail(
+                'Password Reset',
+                f'Your new password is: {new_password}',
+                'no-reply@example.com',
+                [email],
+                fail_silently=False,
+            )
+
+            messages.success(request, "A new password has been sent to your email.")
+            return redirect('login')
+
+        except User.DoesNotExist:
+            messages.error(request, "This email is not registered in our system.")
+
+    return render(request, 'reset_password.html')
+
+
+
+
+
+@login_required
+def profile_view(request):
+    """
+    ویو نمایش و ویرایش پروفایل کاربر
+    """
+    if request.method == 'POST':
+        profile_form = ProfileUpdateForm(request.POST, instance=request.user)
+        password_form = PasswordChangeForm(user=request.user, data=request.POST)
+
+        if profile_form.is_valid():
+            profile_form.save()
+            messages.success(request, "Your profile has been updated successfully.")
+            return redirect('profile')
+        elif password_form.is_valid():
+            password_form.save()
+            messages.success(request, "Your password has been updated successfully. Please log in again.")
+            return redirect('logout')
+        else:
+            messages.error(request, "Please correct the errors below.")
+    else:
+        profile_form = ProfileUpdateForm(instance=request.user)
+        password_form = PasswordChangeForm(user=request.user)
+
+    return render(request, 'profile.html', {
+        'profile_form': profile_form,
+        'password_form': password_form,
+    })
 
 
 # ---------- ثبت‌نام ----------
@@ -128,7 +203,7 @@ def create_user(request):
 
 
 # ---------- صفحه اصلی ----------
-@login_required
+
 def home_screen(request):
     """
     صفحه اصلی (پس از ورود)

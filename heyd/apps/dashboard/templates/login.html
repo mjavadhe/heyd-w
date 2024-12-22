@@ -1,9 +1,45 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>Login</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
+
+    {% extends "shared/base.html" %}
+
+    {% block title %}درخواست پروژه - دیجی پروژه{% endblock %}
+    
+    {% block content %}
+    <div class="container">
+        <div class="login-container">
+            <h2 class="text-center mb-4">ورود به سیستم</h2>
+            <form method="post">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label for="id_username" class="form-label">نام کاربری</label>
+                    {{ form.username }}
+                    {% if form.username.errors %}
+                    <ul class="errorlist">
+                        {% for error in form.username.errors %}
+                        <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                <div class="mb-3">
+                    <label for="id_password" class="form-label">رمز عبور</label>
+                    {{ form.password }}
+                    {% if form.password.errors %}
+                    <ul class="errorlist">
+                        {% for error in form.password.errors %}
+                        <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                <button type="submit" class="btn btn-login">ورود</button>
+            </form>
+            <p class="login-link">
+                قبلاً ثبت‌نام نکرده‌اید؟ <a href="{% url 'register' %}">ثبت‌نام کنید</a>
+                <br>
+                <br>
+                رمز خود را فراموش کردید؟<a href="{% url 'reset_password' %}">رمز خودرا بازیابی کنید</a>
+
+            </p>
+        </div>
+    </div>
 {% endblock %}

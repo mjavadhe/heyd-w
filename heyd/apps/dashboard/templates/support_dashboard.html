@@ -1,5 +1,40 @@
-{% extends "base.html" %}
+{% extends "shared/base.html" %}
+
 {% block content %}
-<h2>Support Dashboard</h2>
-<p>Support tasks will be displayed here.</p>
+<h2>Supporter Dashboard</h2>
+
+<!-- لیست پروژه‌ها -->
+<h3>All Projects</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Status</th>
+            <th>Customer</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for project in projects %}
+        <tr>
+            <td>{{ project.title }}</td>
+            <td>{{ project.get_status_display }}</td>
+            <td>{{ project.customer.username }}</td>
+            <td>
+                <a href="{% url 'edit_project' project.id %}">Edit</a> |
+                <a href="{% url 'assign_project' project.id %}">Assign to Technical</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<!-- لیست کاربران تیم فنی -->
+<h3>Technical Users</h3>
+<ul>
+    {% for technical_user in technical_users %}
+    <li>{{ technical_user.username }} ({{ technical_user.email }})</li>
+    {% endfor %}
+</ul>
+
 {% endblock %}

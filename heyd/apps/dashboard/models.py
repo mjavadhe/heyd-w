@@ -13,6 +13,8 @@ class User(AbstractUser):
         ('admin', 'Admin'),         # مدیر
     ]
     role = models.CharField(max_length=10, choices=ROLE_CHOICES, default='customer')
+    national_code = models.CharField(max_length=10, unique=True, verbose_name='National Code')
+
 
     def save(self, *args, **kwargs):
         """

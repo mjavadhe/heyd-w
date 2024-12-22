@@ -1,0 +1,91 @@
+
+    {% extends "shared/base.html" %}
+    {% block content %}
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="profile-card-header">ویرایش پروفایل</div>
+            <div class="profile-card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="id_username" class="form-label">نام کاربری</label>
+                        {{ profile_form.username }}
+                        {% if profile_form.username.errors %}
+                        <ul class="errorlist">
+                            {% for error in profile_form.username.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    <div class="mb-3">
+                        <label for="id_email" class="form-label">ایمیل</label>
+                        {{ profile_form.email }}
+                        {% if profile_form.email.errors %}
+                        <ul class="errorlist">
+                            {% for error in profile_form.email.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    <div class="mb-3">
+                        <label for="id_national_code" class="form-label">کد ملی</label>
+                        {{ profile_form.national_code }}
+                        {% if profile_form.national_code.errors %}
+                        <ul class="errorlist">
+                            {% for error in profile_form.national_code.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    <button type="submit" name="update_profile" class="btn btn-update">بروزرسانی پروفایل</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <div class="profile-card-header">تغییر رمز عبور</div>
+            <div class="profile-card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="id_old_password" class="form-label">رمز عبور فعلی</label>
+                        <input type="password" name="old_password" class="form-control" id="id_old_password" required>
+                        {% if password_form.old_password.errors %}
+                        <ul class="errorlist">
+                            {% for error in password_form.old_password.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    <div class="mb-3">
+                        <label for="id_new_password1" class="form-label">رمز عبور جدید</label>
+                        <input type="password" name="new_password1" class="form-control" id="id_new_password1" required>
+                        {% if password_form.new_password1.errors %}
+                        <ul class="errorlist">
+                            {% for error in password_form.new_password1.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    <div class="mb-3">
+                        <label for="id_new_password2" class="form-label">تکرار رمز عبور جدید</label>
+                        <input type="password" name="new_password2" class="form-control" id="id_new_password2" required>
+                        {% if password_form.new_password2.errors %}
+                        <ul class="errorlist">
+                            {% for error in password_form.new_password2.errors %}
+                            <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    <button type="submit" name="change_password" class="btn btn-change-password">تغییر رمز عبور</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
