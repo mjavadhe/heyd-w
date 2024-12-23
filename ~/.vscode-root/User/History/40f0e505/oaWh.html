@@ -1,0 +1,42 @@
+{% extends "shared/base.html" %}
+
+{% block title %}لیست پروژه - دیجی پروژه{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="content-container">
+            <h2>درخواست‌های شما</h2>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>کد پروژه</th>
+                            <th>عنوان</th>
+                            <th>وضعیت</th>
+                            <th>قیمت (تومان)</th>
+                            <th>زمان تحویل (روز)</th>
+                            <th>عملیات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for request in requests %}
+                        <tr>
+                            <td>{{ request.project_id }}</td>
+                            <td>{{ request.title }}</td>
+                            <td>{{ request.status }}</td>
+                            <td>{{ request.price }}</td>
+                            <td>{{ request.delivery_time }}</td>
+                            <td>
+                                <a href="{% url 'request_detail' request.id %}" class="btn-view">مشاهده</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-center">
+                <a href="/customer/" class="btn-back">بازگشت به صفحه اصلی</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,120 @@
+2024-12-22 19:19:54.654 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-22 19:19:54.654 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-22 19:19:54.654 [info] Experiment 'pythonTestAdapter' is active
+2024-12-22 19:19:54.654 [info] Native locator: Refresh started
+2024-12-22 19:19:54.654 [info] Native locator: Refresh started
+2024-12-22 19:19:54.654 [info] Native locator: Refresh started
+2024-12-22 19:19:55.818 [info] Native locator: Refresh finished in 5738 ms
+2024-12-22 19:19:55.930 [info] > pyenv which python
+2024-12-22 19:19:55.930 [info] cwd: .
+2024-12-22 19:19:56.062 [info] Python interpreter path: ./venv/bin/python
+2024-12-22 19:20:06.635 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-22 19:20:06.635 [info] shell: bash
+2024-12-22 19:20:07.275 [info] > /bin/python3 ~/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-22 19:20:07.276 [info] shell: bash
+2024-12-22 19:20:07.789 [info] Setting environment variable VIRTUAL_ENV in collection to /home/mjavad/Desktop/heyd-w/venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-22 19:20:07.789 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-22 19:20:07.789 [info] Prepending environment variable PS1 in collection with (venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-12-22 19:20:07.789 [info] Prepending environment variable PATH in collection with /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash:/home/mjavad/Desktop/heyd-w/venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-22 19:20:07.804 [info] Send text to terminal: /bin/python3 /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-12-22 19:20:14.450 [info] Starting Pylance language server.
+2024-12-22 19:27:30.389 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/settings.py
+2024-12-22 19:27:33.939 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/settings.py
+2024-12-22 19:27:50.696 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/settings.py
+2024-12-22 19:27:54.812 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/settings.py
+2024-12-22 19:27:56.052 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/settings.py
+2024-12-22 19:27:59.399 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/settings.py
+2024-12-22 19:28:01.710 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/settings.py
+2024-12-22 19:28:08.750 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/settings.py
+2024-12-22 19:38:50.120 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:38:52.328 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:44:18.535 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:44:21.249 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:44:26.172 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:50:13.505 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:50:14.694 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:50:17.100 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:50:19.830 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:50:24.385 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:14.960 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:20.502 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:22.135 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:23.493 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:26.555 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:30.417 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:32.572 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:47.418 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:51.513 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:58:58.565 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 19:59:02.991 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:00.530 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:03.893 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:18.642 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:22.181 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:25.270 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:26.555 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:28.541 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:34.147 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:01:36.027 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:06.980 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:10.264 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:21.276 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:26.487 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:28.124 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:32.790 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:36.106 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:40.057 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:42.102 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:49.478 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:55.247 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:57.768 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:02:59.579 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:00.748 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:03.214 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:10.361 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:20.260 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:31.121 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:32.852 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:34.642 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:38.133 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:42.047 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:46.396 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:03:53.096 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:10.563 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:13.109 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:17.092 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:20.165 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:23.639 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:26.256 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:28.178 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:29.419 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:31.517 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:04:32.419 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:05:04.467 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:05:11.889 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:05:20.855 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:05:22.832 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:05:27.222 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:05:28.480 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:06:11.331 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:06:12.739 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:06:15.775 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:07:32.482 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:09:15.704 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:09:35.793 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:10:02.807 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:10:33.317 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:10:57.380 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:11:01.445 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:11:03.909 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:11:08.949 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:11:11.504 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py
+2024-12-22 20:19:12.062 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py
+2024-12-22 20:19:18.856 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py
+2024-12-22 20:19:58.496 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py
+2024-12-22 20:20:00.219 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py
+2024-12-22 20:20:08.928 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py
+2024-12-22 20:20:12.387 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py
+2024-12-22 20:20:19.034 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py
+2024-12-22 20:20:22.158 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py
+2024-12-22 20:20:36.008 [info] Discover tests for workspace name: heyd-w - uri: /home/mjavad/Desktop/heyd-w/heyd/apps/requests/views.py

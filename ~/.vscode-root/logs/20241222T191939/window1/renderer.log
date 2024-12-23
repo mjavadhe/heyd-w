@@ -1,0 +1,10 @@
+2024-12-22 19:19:41.640 [warning] Creation of workbench contribution 'workbench.contrib.updateExperimentalSettingsDefaults' took 43ms.
+2024-12-22 19:19:43.551 [info] Started local extension host with pid 3374.
+2024-12-22 19:19:49.508 [info] Settings Sync: Updating due to initialize
+2024-12-22 19:19:49.509 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-22 19:19:49.516 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-22 19:20:01.685 [info] Extension host (LocalProcess pid: 3374) is unresponsive.
+2024-12-22 19:20:02.598 [info] Extension host (LocalProcess pid: 3374) is responsive.
+2024-12-22 19:20:07.901 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-22 19:20:07.904 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-22 19:20:11.025 [info] [perf] Render performance baseline is 282ms

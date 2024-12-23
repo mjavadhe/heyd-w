@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}دیجی پروژه{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+/* home css */
+
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --gradient-start: #667eea;
+            --gradient-end: #764ba2;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(-45deg, var(--gradient-start), var(--gradient-end));
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .navbar {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            padding: 1rem 0;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            color: white !important;
+            font-size: 1.8rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-link {
+            color: white !important;
+            font-weight: 500;
+            margin: 0 1rem;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            line-height: 1.6;
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .btn-custom {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            animation: fadeInUp 1s ease-out 1s both;
+        }
+
+        .btn-custom:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            position: relative;
+            margin-top: auto;
+        }
+
+        .floating-shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .shape {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 20s infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            50% { transform: translate(100px, 100px) rotate(180deg); }
+            100% { transform: translate(0, 0) rotate(360deg); }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+/* home & nav css */
+
+        :root {
+            --gradient-start: #667eea;
+            --gradient-end: #764ba2;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(-45deg, var(--gradient-start), var(--gradient-end));
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .navbar {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .navbar-brand {
+            color: white !important;
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-link {
+            color: white !important;
+            font-weight: 500;
+            margin: 0 1rem;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            right: 0;
+            background-color: white;
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .form-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            color: white;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .form-label {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 10px;
+            padding: 0.8rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: white;
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+            color: black;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        textarea.form-control {
+            min-height: 150px;
+        }
+
+        .form-select {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: black;
+            border-radius: 10px;
+            padding: 0.8rem;
+        }
+
+        .form-select:focus {
+            background-color: rgba(255, 255, 255, 0.15);
+            border-color: white;
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-submit {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .btn-submit:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: scale(1.05);
+        }
+
+        .alert-custom {
+            background: rgba(220, 53, 69, 0.1);
+            border: 2px solid rgba(220, 53, 69, 0.2);
+            color: white;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+/*  */
+
+        .detail-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            color: white;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .list-group-item {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 0.5rem;
+            border-radius: 10px;
+            color: white;
+            padding: 1rem;
+            backdrop-filter: blur(5px);
+        }
+
+        .list-group-item strong {
+            color: rgba(255, 255, 255, 0.8);
+            margin-left: 0.5rem;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+        }
+
+        .btn-back {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-back:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: scale(1.05);
+        }
+
+        .btn-approve {
+            background: rgba(76, 175, 80, 0.2);
+            color: white;
+            border: 2px solid #4CAF50;
+        }
+
+        .btn-approve:hover {
+            background: #4CAF50;
+            transform: scale(1.05);
+        }
+
+        .btn-reject {
+            background: rgba(244, 67, 54, 0.2);
+            color: white;
+            border: 2px solid #f44336;
+        }
+
+        .btn-reject:hover {
+            background: #f44336;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+/*  */
+        
+        .content-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            color: white;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .table {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+        .table th {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-weight: 600;
+            border: none;
+            padding: 1rem;
+        }
+
+        .table td {
+            color: black;
+            border-color: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            vertical-align: middle;
+        }
+
+        .table tbody tr {
+            transition: all 0.3s ease;
+        }
+
+        .table tbody tr:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: scale(1.01);
+        }
+
+        .btn-view {
+            background: rgba(255, 255, 255, 0.2);
+            color: black;
+            border: 1px solid white;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .btn-view:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: scale(1.05);
+        }
+
+        .btn-back {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .btn-back:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: scale(1.05);
+        }
+        
+/* login css */
+
+        .login-container {
+            max-width: 450px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            color: white;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .form-label {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 10px;
+            padding: 0.8rem;
+            transition: all 0.3s ease;
+            margin-bottom: 1rem;
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: white;
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .btn-login {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+            width: 100%;
+        }
+
+        .btn-login:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: scale(1.02);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+/* register css */
+
+        .register-container {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            color: white;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .form-label {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 10px;
+            padding: 0.8rem;
+            transition: all 0.3s ease;
+            margin-bottom: 1rem;
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: white;
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .btn-register {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+            width: 100%;
+        }
+
+        .btn-register:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: scale(1.02);
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 1rem;
+            color: white;
+        }
+
+        .login-link a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .login-link a:hover {
+            border-bottom-color: white;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .errorlist {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0;
+            color: #ff6b6b;
+            font-size: 0.9rem;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .errorlist {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0;
+            color: #ff6b6b;
+            font-size: 0.9rem;
+        }
+
+/* profile css */
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        
+        :root {
+            --gradient-start: #667eea;
+            --gradient-end: #764ba2;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(-45deg, var(--gradient-start), var(--gradient-end));
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .profile-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            color: white;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .profile-card-header {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .profile-card-body {
+            padding: 2rem;
+        }
+
+        .form-label {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 10px;
+            padding: 0.8rem;
+            transition: all 0.3s ease;
+            margin-bottom: 1rem;
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: white;
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* اضافه کردن استایل‌های جدید برای input های پسورد */
+        input[type="password"] {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 10px;
+            padding: 0.8rem;
+            transition: all 0.3s ease;
+            margin-bottom: 1rem;
+            width: 100%;
+        }
+
+        input[type="password"]:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: white;
+            box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        input[type="password"]::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-update {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-update:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: scale(1.02);
+        }
+
+        .btn-change-password {
+            background: rgba(255, 193, 7, 0.2);
+            color: white;
+            border: 2px solid #ffc107;
+        }
+
+        .btn-change-password:hover {
+            background: #ffc107;
+            color: #000;
+            transform: scale(1.02);
+        }
+
+        .errorlist {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0;
+            color: #ff6b6b;
+            font-size: 0.9rem;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+/* customer dashboard css */
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        
+        :root {
+            --gradient-start: #667eea;
+            --gradient-end: #764ba2;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(-45deg, var(--gradient-start), var(--gradient-end));
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .navbar {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .navbar-brand {
+            color: white !important;
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-link {
+            color: white !important;
+            font-weight: 500;
+            margin: 0 1rem;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            right: 0;
+            background-color: white;
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .dashboard-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            color: white;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dashboard-container h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .dashboard-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .dashboard-card {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .dashboard-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .dashboard-card i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .dashboard-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .dashboard-card p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-dashboard {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-dashboard:hover {
+            background: white;
+            color: var(--gradient-start);
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .floating-shapes {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .shape {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 20s infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            50% { transform: translate(100px, 100px) rotate(180deg); }
+            100% { transform: translate(0, 0) rotate(360deg); }
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">پی.آر</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">خانه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/profile/">پروفایل</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/settings/">تنظیمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout/">خروج</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="floating-shapes">
+        <div class="shape" style="width: 60px; height: 60px; left: 10%; top: 20%;"></div>
+        <div class="shape" style="width: 80px; height: 80px; right: 15%; top: 30%;"></div>
+        <div class="shape" style="width: 40px; height: 40px; left: 20%; bottom: 20%;"></div>
+        <div class="shape" style="width: 70px; height: 70px; right: 25%; bottom: 15%;"></div>
+    </div>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="mb-0">
+                &copy; ۱۴۰ پی.آر | تمامی حقوق محفوظ است 
+                <br>
+                طراحی و توسعه توسط تیم نواندیشان شریف
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

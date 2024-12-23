@@ -1,0 +1,35 @@
+2024-12-22 19:19:54.653 [info] Starting Python Locator /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python-env-tools/bin/pet server
+2024-12-22 19:19:55.681 [info] Discovered env: /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:19:55.726 [info] Discovered env: /bin/python3
+2024-12-22 19:19:55.740 [info] Discovered env: /usr/bin/python3
+2024-12-22 19:19:55.765 [info] Locator Conda took 557.457735ms
+2024-12-22 19:19:55.765 [info] Locator Homebrew took 25.921039ms
+2024-12-22 19:19:55.766 [info] Locator LinuxGlobal took 541.819542ms
+2024-12-22 19:19:55.772 [info] Locator PipEnv took 69.24µs
+2024-12-22 19:19:55.773 [info] Locator Poetry took 29.370362ms
+2024-12-22 19:19:55.775 [info] Locator PyEnv took 44.87907ms
+2024-12-22 19:19:55.776 [info] Locator Venv took 31.046µs
+2024-12-22 19:19:55.781 [info] Locator VirtualEnv took 39.862µs
+2024-12-22 19:19:55.781 [info] Locator VirtualEnvWrapper took 3.096651ms
+2024-12-22 19:19:55.783 [info] Locator GlobalVirtualEnvs took 167.32µs
+2024-12-22 19:19:55.787 [info] Locator Locators took 569.173193ms
+2024-12-22 19:19:55.788 [info] Locator Path took 927.908876ms
+2024-12-22 19:19:55.795 [info] Locator Workspaces took 197.365523ms
+2024-12-22 19:19:55.797 [info] Refresh completed in 936ms
+2024-12-22 19:19:56.048 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:27:19.019 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:38:35.930 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:40:18.916 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:42:57.929 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:49:13.441 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:50:07.410 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:53:07.835 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:53:36.795 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:54:29.801 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:55:17.427 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 19:57:54.458 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 20:13:24.429 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 20:14:04.289 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 20:15:30.637 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 20:17:38.316 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python
+2024-12-22 20:20:44.908 [info] Resolved Python Environment /home/mjavad/Desktop/heyd-w/venv/bin/python

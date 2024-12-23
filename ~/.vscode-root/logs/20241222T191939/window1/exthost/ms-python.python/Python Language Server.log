@@ -1,0 +1,38 @@
+2024-12-22 19:20:08.710 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.0)
+2024-12-22 19:20:14.308 [info] [Info  - 7:20:14 PM] (3694) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-22 19:20:14.319 [info] [Info  - 7:20:14 PM] (3694) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-22 19:20:14.347 [info] [Info  - 7:20:14 PM] (3694) Starting service instance "heyd-w"
+2024-12-22 19:20:14.801 [info] [Info  - 7:20:14 PM] (3694) Setting environmentName for service "heyd-w": "3.12.3 (venv venv)"
+2024-12-22 19:20:14.842 [info] [Info  - 7:20:14 PM] (3694) Setting pythonPath for service "heyd-w": "/home/mjavad/Desktop/heyd-w/venv/bin/python"
+2024-12-22 19:20:14.843 [info] [Info  - 7:20:14 PM] (3694) No include entries specified; assuming /home/mjavad/Desktop/heyd-w
+2024-12-22 19:20:14.845 [info] [Info  - 7:20:14 PM] (3694) Auto-excluding **/node_modules
+2024-12-22 19:20:14.846 [info] [Info  - 7:20:14 PM] (3694) Auto-excluding **/__pycache__
+2024-12-22 19:20:14.850 [info] [Info  - 7:20:14 PM] (3694) Auto-excluding **/.*
+2024-12-22 19:20:14.995 [info] [Info  - 7:20:14 PM] (3694) Assuming Python version 3.12.3.final.0
+2024-12-22 19:20:15.541 [info] [Info  - 7:20:15 PM] (3694) Auto-excluding /home/mjavad/Desktop/heyd-w/venv
+2024-12-22 19:20:15.671 [info] [Info  - 7:20:15 PM] (3694) Found 59 source files
+2024-12-22 19:20:17.484 [info] [Info  - 7:20:17 PM] (3694) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-22 19:20:17.495 [info] [Info  - 7:20:17 PM] (3694) Background analysis(1) started
+2024-12-22 19:27:22.673 [info] [Info  - 7:27:22 PM] (3694) [BG(1)] Long operation: parsing: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist/typeshed-fallback/stdlib/builtins.pyi (2410ms)
+2024-12-22 19:27:23.386 [info] [Info  - 7:27:23 PM] (3694) [BG(1)] Long operation: indexing: file:///home/mjavad/Desktop/heyd-w/__init__.py (4268ms)
+2024-12-22 19:27:26.293 [info] [Info  - 7:27:26 PM] (3694) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-22 19:27:26.308 [info] [Info  - 7:27:26 PM] (3694) Indexing(2) started
+2024-12-22 19:27:27.568 [info] [Info  - 7:27:27 PM] (3694) [BG(1)] Long operation: SemanticTokens full at file:///home/mjavad/Desktop/heyd-w/settings.py (2396ms)
+2024-12-22 19:27:34.620 [info] [Info  - 7:27:34 PM] (3694) [IDX(2)] Long operation: scan packages file:///home/mjavad/Desktop/heyd-w (7711ms)
+2024-12-22 19:27:34.622 [info] [Info  - 7:27:34 PM] (3694) scanned(2) 53 files over 1 exec env
+2024-12-22 19:27:35.424 [info] [Info  - 7:27:35 PM] (3694) indexed(2) 53 files over 1 exec env
+2024-12-22 19:27:35.505 [info] [Info  - 7:27:35 PM] (3694) Indexing finished(2).
+2024-12-22 19:38:39.261 [info] [Info  - 7:38:39 PM] (3694) [BG(1)] Long operation: checking: file:///home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py (3350ms)
+2024-12-22 19:38:39.263 [info] [Info  - 7:38:39 PM] (3694) [BG(1)] Long operation: analyzing: file:///home/mjavad/Desktop/heyd-w/heyd/apps/requests/models.py (3372ms)
+2024-12-22 19:39:25.374 [info] [Info  - 7:39:25 PM] (3694) Auto-excluding /home/mjavad/Desktop/heyd-w/venv
+2024-12-22 19:39:25.403 [info] [Info  - 7:39:25 PM] (3694) Found 60 source files
+2024-12-22 19:53:33.375 [info] [Info  - 7:53:33 PM] (3694) [BG(1)] Long operation: checking: file:///home/mjavad/Desktop/heyd-w/heyd/apps/requests/urls.py (2920ms)
+2024-12-22 19:53:33.403 [info] [Info  - 7:53:33 PM] (3694) [BG(1)] Long operation: analyzing: file:///home/mjavad/Desktop/heyd-w/heyd/apps/requests/urls.py (2953ms)
+2024-12-22 19:59:39.384 [info] [Info  - 7:59:39 PM] (3694) Auto-excluding /home/mjavad/Desktop/heyd-w/venv
+2024-12-22 19:59:39.447 [info] [Info  - 7:59:39 PM] (3694) Found 61 source files
+2024-12-22 20:06:21.624 [info] [Info  - 8:06:21 PM] (3694) Auto-excluding /home/mjavad/Desktop/heyd-w/venv
+2024-12-22 20:06:21.715 [info] [Info  - 8:06:21 PM] (3694) Found 62 source files
+2024-12-22 20:07:42.598 [info] [Info  - 8:07:42 PM] (3694) Auto-excluding /home/mjavad/Desktop/heyd-w/venv
+2024-12-22 20:07:42.628 [info] [Info  - 8:07:42 PM] (3694) Found 63 source files
+2024-12-22 20:14:38.328 [info] [Info  - 8:14:38 PM] (3694) Auto-excluding /home/mjavad/Desktop/heyd-w/venv
+2024-12-22 20:14:38.391 [info] [Info  - 8:14:38 PM] (3694) Found 64 source files
