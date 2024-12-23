@@ -1,0 +1,67 @@
+{% extends "shared/base.html" %}
+
+{% block title %}جزییات پروژه - پی.آر{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="detail-container">
+            <h2 class="text-center mb-4">جزئیات درخواست پروژه</h2>
+            
+            <!-- <ul class="list-group">
+                <li class="list-group-item"><strong>کد پروژه:</strong> {{ project_request.project_id }}</li>
+                <li class="list-group-item"><strong>عنوان:</strong> {{ project_request.title }}</li>
+                <li class="list-group-item"><strong>توضیحات:</strong> {{ project_request.description }}</li>
+                <li class="list-group-item"><strong>وضعیت:</strong> {{ project_request.status }}</li>
+                <li class="list-group-item"><strong>قیمت:</strong> 
+                    <span id="formatted-price">{{ project_request.price }}</span> تومان
+                </li>
+                <li class="list-group-item"><strong>زمان تقریبی تحویل:</strong> {{ project_request.delivery_time }} روز</li>
+                <li class="list-group-item"><strong>زمان ایجاد:</strong> {{ project_request.created_at }}</li>
+                <li class="list-group-item"><strong>زمان بروزرسانی:</strong> {{ project_request.updated_at }}</li>
+            </ul> -->
+            <ul class="list-group">
+                <li class="list-group-item"><strong>کد پروژه:</strong> {{ project_request.project_id }}</li>
+                <li class="list-group-item"><strong>عنوان:</strong> {{ project_request.title }}</li>
+                <li class="list-group-item"><strong>توضیحات:</strong> {{ project_request.description }}</li>
+                <li class="list-group-item"><strong>وضعیت:</strong> {{ project_request.status }}</li>
+                <li class="list-group-item"><strong>قیمت:</strong> 
+                    <span id="formatted-price">{{ project_request.price }}</span> تومان
+                </li>
+                <li class="list-group-item"><strong>زمان تقریبی تحویل:</strong> {{ project_request.delivery_time }} روز</li>
+                <li class="list-group-item"><strong>زمان ایجاد:</strong> {{ project_request.get_created_at_persian }}</li>
+                <li class="list-group-item"><strong>زمان بروزرسانی:</strong> {{ project_request.get_updated_at_persian }}</li>
+            </ul>
+
+            {% if project_request.status == 'پذیرفته شده توسط تیم پی.آر' %}
+            <div class="mt-4 text-center">
+                <p>پروژه شما با شرایط بالا پذیرفته شد. آیا تمام شرایط را قبول دارید برای تایید نهایی؟</p>
+                <form method="POST" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit" name="accept" class="btn btn-approve">بله</button>
+                    <button type="submit" name="reject" class="btn btn-reject">خیر</button>
+                </form>
+            </div>
+            {% endif %}
+
+            <div class="text-center mt-4">
+                <a href="{% url 'list_requests' %}" class="btn btn-back">بازگشت به لیست درخواست‌ها</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- اسکریپت جاوااسکریپت -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const priceElement = document.getElementById("formatted-price");
+            let price = parseFloat(priceElement.textContent);
+
+            if (!isNaN(price)) {
+                // حذف قسمت اعشاری
+                price = Math.floor(price);
+                // اضافه کردن کاما
+                priceElement.textContent = price.toLocaleString('en-US');
+            }
+        });
+    </script>
+{% endblock %}
+

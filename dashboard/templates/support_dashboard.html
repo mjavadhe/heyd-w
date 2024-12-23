@@ -1,0 +1,124 @@
+<!-- templates/support_dashboard.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container py-4">
+    <!-- نوار آمار -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">کل پروژه‌ها</h5>
+                    <h2>{{ total_projects }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-warning text-white">
+                <div class="card-body">
+                    <h5 class="card-title">در انتظار بررسی</h5>
+                    <h2>{{ pending_projects }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-info text-white">
+                <div class="card-body">
+                    <h5 class="card-title">در حال انجام</h5>
+                    <h2>{{ in_progress_projects }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">تکمیل شده</h5>
+                    <h2>{{ completed_projects }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- فیلترها و جستجو -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <form method="get" class="row g-3">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="text" name="q" value="{{ query }}" class="form-control" 
+                               placeholder="جستجو در کد، عنوان یا نام کاربر">
+                        <button type="submit" class="btn btn-primary">جستجو</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <select name="status" class="form-select" onchange="this.form.submit()">
+                        <option value="">همه وضعیت‌ها</option>
+                        {% for status, label in status_choices %}
+                            <option value="{{ status }}" {% if status == status_filter %}selected{% endif %}>
+                                {{ label }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                {% if query or status_filter %}
+                    <div class="col-md-2">
+                        <a href="{% url 'support_dashboard' %}" class="btn btn-outline-secondary w-100">
+                            پاک کردن فیلترها
+                        </a>
+                    </div>
+                {% endif %}
+            </form>
+        </div>
+    </div>
+
+    <!-- جدول پروژه‌ها -->
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>کد پروژه</th>
+                            <th>عنوان</th>
+                            <th>مشتری</th>
+                            <th>تاریخ ایجاد</th>
+                            <th>وضعیت</th>
+                            <th>عملیات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for project in projects %}
+                            <tr>
+                                <td>{{ project.project_id }}</td>
+                                <td>{{ project.title }}</td>
+                                <td>{{ project.customer.username }}</td>
+                                <td>{{ project.created_at|date:"Y/m/d H:i" }}</td>
+                                <td>
+                                    <span class="badge bg-{{ project.get_status_class }}">
+                                        {{ project.get_status_display }}
+                                    </span>
+                                </td>
+                                <td>
+                                    <a href="{% url 'support_project_detail' project.id %}" 
+                                       class="btn btn-sm btn-outline-primary">
+                                        مشاهده جزئیات
+                                    </a>
+                                </td>
+                            </tr>
+                        {% empty %}
+                            <tr>
+                                <td colspan="6" class="text-center py-4">
+                                    <div class="text-muted">
+                                        <i class="fas fa-folder-open fa-3x mb-3"></i>
+                                        <p>هیچ پروژه‌ای یافت نشد.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

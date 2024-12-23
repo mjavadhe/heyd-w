@@ -1,0 +1,63 @@
+<!-- templates/support_project_detail.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">جزئیات پروژه</h4>
+            <a href="{% url 'support_dashboard' %}" class="btn btn-outline-primary">
+                بازگشت به داشبورد
+            </a>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="table table-borderless">
+                        <tr>
+                            <th>کد پروژه:</th>
+                            <td>{{ project.project_id }}</td>
+                        </tr>
+                        <tr>
+                            <th>عنوان:</th>
+                            <td>{{ project.title }}</td>
+                        </tr>
+                        <tr>
+                            <th>مشتری:</th>
+                            <td>{{ project.customer.get_full_name }}</td>
+                        </tr>
+                        <tr>
+                            <th>تاریخ ایجاد:</th>
+                            <td>{{ project.created_at|date:"Y/m/d H:i" }}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <form method="post" class="card">
+                        {% csrf_token %}
+                        <div class="card-header">
+                            <h5 class="mb-0">تغییر وضعیت پروژه</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label class="form-label">وضعیت فعلی:</label>
+                                <select name="status" class="form-select">
+                                    {% for status, label in project.STATUS_CHOICES %}
+                                        <option value="{{ status }}" 
+                                                {% if status == project.status %}selected{% endif %}>
+                                            {{ label }}
+                                        </option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                بروزرسانی وضعیت
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

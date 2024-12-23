@@ -1,0 +1,108 @@
+<!-- templates/support_project_detail.html -->
+{% extends 'shared/base.html' %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">جزئیات پروژه</h4>
+            <a href="{% url 'support_dashboard' %}" class="btn btn-outline-primary">
+                بازگشت به داشبورد
+            </a>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <!-- اطلاعات پروژه -->
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5 class="mb-0">اطلاعات پروژه</h5>
+                        </div>
+                        <div class="card-body">
+                            <table cclass="container">
+                                <tr>
+                                    <th>شناسه:</th>
+                                    <td>{{ project.id }}</td>
+                                </tr>
+                                <tr>
+                                    <th>کد پروژه:</th>
+                                    <td>{{ project.project_id }}</td>
+                                </tr>
+                                <tr>
+                                    <th>عنوان:</th>
+                                    <td>{{ project.title }}</td>
+                                </tr>
+                                <tr>
+                                    <th>مشتری:</th>
+                                    <td>{{ project.customer }}</td>
+                                </tr>
+                                <tr>
+                                    <th>زبان:</th>
+                                    <td>{{ project.languege }}</td>
+                                </tr>
+                                <tr>
+                                    <th>توضیحات:</th>
+                                    <td>{{ project.description }}</td>
+                                </tr>
+                                <tr>
+                                    <th>تاریخ ایجاد:</th>
+                                    <td>{{ project.get_created_at_persian }}</td>
+                                </tr>
+                                <tr>
+                                    <th>آخرین بروزرسانی:</th>
+                                    <td>{{ project.get_updated_at_persian }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- فرم بروزرسانی -->
+                <div class="col-md-6">
+                    <form method="post" class="card">
+                        {% csrf_token %}
+                        <div class="card-header">
+                            <h5 class="mb-0">بروزرسانی اطلاعات پروژه</h5>
+                        </div>
+                        <div class="card-body">
+                            <!-- وضعیت -->
+                            <div class="mb-3">
+                                <label >وضعیت:</label>
+                                <select name="status">
+                                    {% for status, label in project.STATUS_CHOICES %}
+                                        <option value="{{ status }}" 
+                                                {% if status == project.status %}selected{% endif %}>
+                                            {{ label }}
+                                        </option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+
+                            <!-- قیمت -->
+                            <div class="mb-3">
+                                <label >قیمت (تومان):</label>
+                                <input type="number" 
+                                       name="price" 
+                                       value="{{ project.price|default:'' }}"
+                                       step="0.01">
+                            </div>
+
+                            <!-- زمان تحویل -->
+                            <div class="mb-3">
+                                <label >زمان تحویل (روز):</label>
+                                <input type="number" 
+                                       name="delivery_time" 
+                                       value="{{ project.delivery_time|default:'' }}">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">
+                                بروزرسانی اطلاعات
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
